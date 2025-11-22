@@ -5,7 +5,7 @@
 ## 🚀 Overview
 
 The **Frontend** module provides the graphical interface for the EarDefender platform.
-Built with **Vue.js*#, it enables users to:
+Built with **Vue.js**, it enables users to:
 
 - Submit audio/video materials for analysis
 
