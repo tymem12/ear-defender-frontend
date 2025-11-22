@@ -21,11 +21,11 @@ Designed to be lightweight, responsive, and integrated directly with the Connect
 
 ## 🐳 Running via Docker (recommended)
 
-1. Build Docker image
+1. **Build Docker image**
 
 `docker build -t frontend-app .`
 
-2. Run container
+2. **Run container**
 
 Expose the application on port 8080:
 
@@ -35,25 +35,25 @@ Expose the application on port 8080:
 
 ## 💻 Running Locally (without Docker)
 
-1. Install dependencies
+1. **Install dependencies**
 
 `npm install`
 
-2. Start development server (hot reload)
+2. **Start development server (hot reload)**
 
 `npm run serve`
 
-3. Build for production
+3. **Build for production**
 
 `npm run build`
 
-4. Lint and fix files
+4. **Lint and fix files**
 
 `npm run lint`
 
 
 ## ⚙️ Additional Configuration
 
-For advanced project configuration, see the official Vue CLI reference:
+For advanced project configuration, see the official** Vue CLI reference**:
 
 👉 https://cli.vuejs.org/config/
