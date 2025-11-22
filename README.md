@@ -1,42 +1,59 @@
-# EarDefender frontend
+# 🎨 EarDefender – Frontend
 
-This is the frontend for the EarDefender application, built with Vue.js. It serves as the user interface for interacting with the system, providing tools for audio analysis and verification.
+**User Interface for Audio DeepFake Detection**
 
-## Local run using Docker
+## 🚀 Overview
 
-### Build Docker Image
-Use the provided Dockerfile to build a containerized version of the frontend:
-```bash
-docker build -t frontend-app .
-```
+The **Frontend** module provides the graphical interface for the EarDefender platform.
+Built with **Vue.js*#, it enables users to:
 
-### Run Docker Container
-Run the containerized frontend, exposing it on port `8080`:
-```bash
-docker run -p 8080:8080 frontend-app
-```
+- Submit audio/video materials for analysis
 
-## Local run 
+- Configure analysis options and detection methods
 
-### Install Dependencies
-```bash
-npm install
-```
+- View detailed DeepFake detection results
 
-### Compiles and Hot-Reloads for Development
-```bash
-npm run serve
-```
+- Access links and metadata from processed content
 
-### Compiles and Minifies for Production
-```bash
-npm run build
-```
 
-### Lints and Fixes Files
-```bash
-npm run lint
-```
+Designed to be lightweight, responsive, and integrated directly with the Connector API.
 
-### Customize Configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## 🐳 Running via Docker (recommended)
+
+1. Build Docker image
+
+`docker build -t frontend-app .`
+
+2. Run container
+
+Expose the application on port 8080:
+
+`docker run -p 8080:8080 frontend-app`
+
+
+
+## 💻 Running Locally (without Docker)
+
+1. Install dependencies
+
+`npm install`
+
+2. Start development server (hot reload)
+
+`npm run serve`
+
+3. Build for production
+
+`npm run build`
+
+4. Lint and fix files
+
+`npm run lint`
+
+
+## ⚙️ Additional Configuration
+
+For advanced project configuration, see the official Vue CLI reference:
+
+👉 https://cli.vuejs.org/config/
