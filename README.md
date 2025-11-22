@@ -54,6 +54,6 @@ Expose the application on port 8080:
 
 ## ⚙️ Additional Configuration
 
-For advanced project configuration, see the official** Vue CLI reference**:
+For advanced project configuration, see the official **Vue CLI reference**:
 
 👉 https://cli.vuejs.org/config/
